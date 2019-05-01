@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".giris">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:textSize="20dp"
+
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Kullanici Adi"
+        android:id="@+id/kullaniciadi"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Sifre"
+        android:id="@+id/sifre"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/giris"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+
+        android:textColor="#fff"
+        android:layout_gravity="center_horizontal"
+
+        android:background="@drawable/kirmizi"
+        android:layout_marginTop="30dp"
+
+        android:text="Giriş" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Üye değilseniz üye olmak için tıkla!"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:textSize="12dp"
+        android:id="@+id/uyeol"
+        />
+
+</LinearLayout>
