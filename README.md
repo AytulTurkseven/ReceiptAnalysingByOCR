@@ -2,7 +2,7 @@
 <h4>Login Page</h4>
 
 ![bitirme2](https://user-images.githubusercontent.com/48483419/58100516-72c94b80-7be6-11e9-8639-b9a7826fb565.jpg)
-<h4>Login Page</h4>
+<h4>Selection Page</h4>
 
 ![bitirme3](https://user-images.githubusercontent.com/48483419/58100518-73fa7880-7be6-11e9-859b-6bc3074f9fbb.jpg)
 <h4>Login Page</h4>
